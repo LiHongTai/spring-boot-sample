@@ -1,0 +1,21 @@
+
+
+server:
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf-8
+  mvc:
+    date-format: yyyy-MM-dd
+  jackson:
+    time-zone: GMT+9
+    date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: true
+
+
